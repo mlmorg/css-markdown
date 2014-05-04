@@ -1,0 +1,24 @@
+{
+  "name": "css-markdown",
+  "description": "Parse Markdown within your css comments",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Matt Morgan",
+    "email": "matt@mlmorg.com",
+    "url": "http://mlmorg.com"
+  },
+  "main": "lib/css-markdown",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-jshint": "~0.8.0",
+    "mocha": "~1.15.1"
+  },
+  "scripts": {
+    "test": "grunt && mocha -R spec"
+  }
+}
