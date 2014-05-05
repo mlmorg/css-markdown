@@ -1,15 +1,40 @@
 {
   "name": "css-markdown",
-  "description": "Parse Markdown within your css comments",
+  "description": "Parse markdown comments in your css to html",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://github.com/mlmorg/css-markdown",
   "author": {
     "name": "Matt Morgan",
     "email": "matt@mlmorg.com",
     "url": "http://mlmorg.com"
   },
-  "main": "lib/css-markdown",
+  "keywords": [
+    "markdown",
+    "css",
+    "comments",
+    "parse",
+    "html"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mlmorg/css-markdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mlmorg/css-markdown/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mlmorg/css-markdown/blob/master/LICENSE"
+    }
+  ],
+  "main": "index.js",
+  "bin": {
+    "css-markdown": "bin/cmd.js"
+  },
   "dependencies": {
+    "marked": "~0.3.2",
+    "minimist": "~0.2.0"
   },
   "devDependencies": {
     "chai": "~1.8.1",
