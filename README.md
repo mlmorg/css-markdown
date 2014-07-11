@@ -1,4 +1,4 @@
-# css-markdown
+# css-markdown [![Build Status](https://travis-ci.org/mlmorg/css-markdown.png?branch=master)](https://travis-ci.org/mlmorg/css-markdown)
 
 Parse markdown comments in your css to html.
 
