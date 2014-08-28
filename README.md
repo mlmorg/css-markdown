@@ -1,10 +1,10 @@
 # css-markdown [![Build Status](https://travis-ci.org/mlmorg/css-markdown.png?branch=master)](https://travis-ci.org/mlmorg/css-markdown)
 
-Parse markdown comments in your css to html.
+Extract markdown comments in your css.
 
 ## Usage
 
-Mark up your css comments with markdown, specifying it's type with a `/*md` comment prefix:
+Mark up your css comments with markdown, specifying its type with a `/*md`, `/*markdown`, or `/*doc` comment prefix:
 
 ```css
 /*md
@@ -24,15 +24,17 @@ These float elements left or right!
 Then run the `css-markdown` command:
 
 ```bash
-css-markdown floats.css > floats.html
+css-markdown floats.css > floats.md
 ```
 
-`floats.html` will now contain:
+`floats.md` will now contain:
+
+```css
+# Some Floats
+
+These float elements left or right!
 
 ```html
-<h1 id="some-floats">Some floats</h1>
-<p>These float elements left or right!</p>
-<pre><code class="lang-html">&lt;div class=&quot;float--left&quot;&gt;Floated left&lt;/div&gt;
-&lt;div class=&quot;float--right&quot;&gt;Floated right&lt;/div&gt;
-</code></pre>
+<div class="float--left">Floated left</div>
+<div class="float--right">Floated right</div>
 ```
