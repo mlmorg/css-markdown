@@ -33,7 +33,6 @@
     "css-markdown": "bin/cmd.js"
   },
   "dependencies": {
-    "marked": "~0.3.2",
     "minimist": "~0.2.0"
   },
   "devDependencies": {
