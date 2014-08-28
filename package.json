@@ -1,7 +1,7 @@
 {
   "name": "css-markdown",
   "description": "Parse markdown comments in your css to html",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/mlmorg/css-markdown",
   "author": {
     "name": "Matt Morgan",
